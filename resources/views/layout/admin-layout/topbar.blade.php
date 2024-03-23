@@ -153,7 +153,7 @@
                     <img src="{{ asset('avatar/52avt4.jpg') }}" alt="user-image" class="rounded-circle">
                 </span>
                 <span>
-                    <span class="account-user-name"></span>
+                    <span class="account-user-name">Lưu Quang Vinh</span>
                     <span class="account-position">Admin</span>
                 </span>
             </a>
@@ -199,7 +199,6 @@ $(".light-btn").on("click", function() {
     $(".dark-btn").removeClass("d-none");
     changeBgColor(valBg);
 })
-
 $(".dark-btn").on("click", function() {
     valBg = $("#dark-mode-check").val()
     $(".dark").prop("checked", false);

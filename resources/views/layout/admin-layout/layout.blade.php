@@ -20,7 +20,7 @@
         type="text/css">
     <link rel="stylesheet" href="{{ asset('node_modules/animate.css/animate.min.css') }}" rel="stylesheet"
         type="text/css">
-    <script href="{{ asset('js/jquery-3.6.1.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-3.6.1.min.js') }}"></script>
 
 </head>
 
@@ -59,7 +59,6 @@
         </div>
     </div>
 </body>
-@stack('after-js')
 <script src="{{ asset('js/vendor.min.js') }}"></script>
 <script src="{{ asset('js/app.min.js') }}"></script>
 <script src="{{ asset('node_modules/sweetalert2/dist/sweetalert2.min.js') }}"></script>
